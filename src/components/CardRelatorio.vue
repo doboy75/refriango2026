@@ -1,7 +1,7 @@
 <template>
-  <div class="card relatorio-card border-0 shadow-sm h-100">
-    <div class="card-body p-4">
-      <div class="d-flex align-items-start gap-3 mb-4">
+  <div class="card relatorio-card border-0 shadow-sm">
+    <div class="card-body p-3">
+      <div class="d-flex align-items-start gap-5 mb-4">
         <div class="icone-box">
           <slot name="icone"></slot>
         </div>
@@ -32,12 +32,12 @@ export default {
   background: #061226;
   border: 1px solid #0d2a52 !important;
   border-radius: 20px;
-  min-height: 230px;
+  min-height: 180px;
 }
 
 .icone-box {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 16px;
   background: #0b1d3a;
 
@@ -46,7 +46,7 @@ export default {
   justify-content: center;
 
   color: #2f8cff;
-  font-size: 28px;
+  font-size: 33px;
 }
 
 .btn-custom {
