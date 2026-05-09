@@ -99,7 +99,12 @@ export default {
           icon: "bi-file-earmark-bar-graph",
           path: "/relatorios",
         },
-        { id: 6, name: "Usuários", icon: "bi-people", path: "/suarios" },
+        {
+          id: 6,
+          name: "usuarios ",
+          icon: "bi-person",
+          path: "/user",
+        },
         {
           id: 7,
           name: "Configurações",

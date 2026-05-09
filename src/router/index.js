@@ -55,6 +55,11 @@ const routes = [
     name: "administrador",
     component: () => import("../views/AdminRefriango.vue"),
   },
+  {
+    path: "/user",
+    name: "user",
+    component: () => import("../views/UsuarioRefriango.vue"),
+  },
 ];
 
 const router = createRouter({
